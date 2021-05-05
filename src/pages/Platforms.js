@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import {Link} from 'react-router-dom';
 
 export class Platforms extends Component {
     render() {
@@ -18,55 +19,55 @@ export class Platforms extends Component {
         <div className="row">
           <div className="channel-item-box">
             <div className="channel-item">
-              <a href="platforms-login.html">
+              <Link to="/platformlogin">
                 <figure><img src="assets/images/fb-page.png" /></figure>
                 <h6>Facebbok</h6>
-              </a></div></div>
+              </Link></div></div>
           <div className="channel-item-box">
             <div className="channel-item">
-              <a href="platforms-login.html">
+              <Link to="/platformlogin">
                 <figure><img src="assets/images/fb-group.png" /></figure>
-                <h6>Facebbok</h6></a>
+                <h6>Facebbok</h6></Link>
             </div></div>
           <div className="channel-item-box">
             <div className="channel-item">
-              <a href="platforms-login.html">
+              <Link to="/platformlogin">
                 <figure><img src="assets/images/fb-profile.png" /></figure>
-                <h6>Facebbok</h6></a>
+                <h6>Facebbok</h6></Link>
             </div></div>
           <div className="channel-item-box">
             <div className="channel-item">
-              <a href="platforms-login.html">
+              <Link to="/platformlogin">
                 <figure><img src="assets/images/youtube.png" /></figure>
-                <h6>Youtube</h6></a>
+                <h6>Youtube</h6></Link>
             </div></div>
           <div className="channel-item-box">
             <div className="channel-item">
-              <a href="platforms-login.html">
+              <Link to="/platformlogin">
                 <figure><img src="assets/images/periscope.png" /></figure>
-                <h6>Periscope</h6></a>
+                <h6>Periscope</h6></Link>
             </div>
           </div>
           <div className="channel-item-box">
             <div className="channel-item">
-              <a href="platforms-login.html">
+              <Link to="/platformlogin">
                 <figure><img src="assets/images/linkdin-page.png" /></figure>
                 <h6>Linkedin</h6>
-              </a></div></div>
+              </Link></div></div>
           <div className="channel-item-box">
-            <div className="channel-item"><a href="platforms-login.html">
+            <div className="channel-item"><Link to="/platformlogin">
                 <figure><img src="assets/images/lindin-event.png" /></figure>
-                <h6>Linkedin</h6></a>
+                <h6>Linkedin</h6></Link>
             </div></div>
           <div className="channel-item-box">
-            <div className="channel-item"><a href="platforms-login.html">
+            <div className="channel-item"><Link to="/platformlogin">
                 <figure><img src="assets/images/linkdin-profile.png" /></figure>
-                <h6>Linkedin</h6></a>
+                <h6>Linkedin</h6></Link>
             </div></div>
           <div className="channel-item-box">
-            <div className="channel-item"><a href="platforms-login.html">
+            <div className="channel-item"><Link to="/platformlogin">
                 <figure><img src="assets/images/twitch-logo.png" /></figure>
-                <h6>Twitch</h6></a>
+                <h6>Twitch</h6></Link>
             </div></div>
         </div>
       </div>

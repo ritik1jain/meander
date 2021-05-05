@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import {Link} from 'react-router-dom';
 
 export class PlatformsLogin extends Component {
     render() {
@@ -8,7 +9,7 @@ export class PlatformsLogin extends Component {
   <div className="row">
     <div className="channels-box">
       <div className="col-md-12 p-0">
-        <h1><a href="platforms.html"><span className="rounded back-arrow"><i className="fa fa-long-arrow-left" aria-hidden="true" /></span></a>Add a new channel</h1>
+        <h1><Link to="/platforms"><span className="rounded back-arrow"><i className="fa fa-long-arrow-left" aria-hidden="true" /></span></Link>Add a new channel</h1>
       </div>
       <div className="col-md-12 p-0 tabs-list">
         <div className="box1"><span className="selected" />Select a Service</div>

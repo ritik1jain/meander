@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 
 class Channels extends Component {
     render() {
@@ -16,29 +17,29 @@ class Channels extends Component {
         <div className="row">
           <div className="channel-item-box">
             <div className="channel-item">
-              <a href="platforms.html">
+              <Link to="/platforms">
                 <figure><img src="assets/images/fb-page.png" /></figure>
                 <h6>Facebbok</h6>
-              </a></div></div>
+              </Link></div></div>
           <div className="channel-item-box">
-            <div className="channel-item"><a href="platforms.html">
+            <div className="channel-item"><Link to="/platforms">
                 <figure><img src="assets/images/fb-group.png" /></figure>
-                <h6>Facebbok</h6></a>
+                <h6>Facebbok</h6></Link>
             </div></div>
           <div className="channel-item-box">
-            <div className="channel-item"><a href="platforms.html">
+            <div className="channel-item"><Link to="/platforms">
                 <figure><img src="assets/images/fb-profile.png" /></figure>
-                <h6>Facebbok</h6></a>
+                <h6>Facebbok</h6></Link>
             </div></div>
           <div className="channel-item-box">
-            <div className="channel-item"><a href="platforms.html">
+            <div className="channel-item"><Link to="/platforms">
                 <figure><img src="assets/images/fb-profile.png" /></figure>
-                <h6>Facebbok</h6></a>
+                <h6>Facebbok</h6></Link>
             </div></div>
           <div className="channel-item-box">
-            <div className="channel-item"><a href="platforms.html">
+            <div className="channel-item"><Link to="/platforms">
                 <figure><img src="assets/images/fb-profile.png" /></figure>
-                <h6>Facebbok</h6></a>
+                <h6>Facebbok</h6></Link>
             </div>
           </div>
         </div>

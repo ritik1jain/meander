@@ -32,7 +32,7 @@ function App() {
           <Route path='/channels' exact component={Channels} />
           <Route path='/events' exact component={Events} />
           <Route path='/payments' exact component={Payments} />
-          <Route path='/platformslogin' exact component={PlatformsLogin} />
+          <Route path='/platformlogin' exact component={PlatformsLogin} />
           <Route path='/videostorage' exact component={VideoStorage} />
           <Route path='/platforms' exact component={Platforms} />
         </Switch>

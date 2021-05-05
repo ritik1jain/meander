@@ -1,4 +1,6 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
+
 // import 'assets/css/bootstrap-datetimepicker.min.css';
 
 class Events extends Component {
@@ -22,7 +24,7 @@ class Events extends Component {
                   <span className="icon-btn" title="Edit"><i className="fa fa-pencil-square-o" aria-hidden="true" /></span>
                   <span className="icon-btn" title="Delete"><i className="fa fa-trash-o" aria-hidden="true" /></span>
                   <span className="icon-btn" title="Invite Friends"><i className="fa fa-user-plus" aria-hidden="true" /></span>
-                  <a href="index.html"><span className="btn rtmp-btn live-studeo">Live Studio</span></a> 
+                  <Link to="/"><span className="btn rtmp-btn live-studeo">Live Studio</span></Link> 
                   <span className="btn rtmp-btn">RTMP Settings</span>
                 </p>
               </div>
@@ -40,7 +42,7 @@ class Events extends Component {
                   <span className="icon-btn" title="Edit"><i className="fa fa-pencil-square-o" aria-hidden="true" /></span>
                   <span className="icon-btn" title="Delete"><i className="fa fa-trash-o" aria-hidden="true" /></span>
                   <span className="icon-btn" title="Invite Friends"><i className="fa fa-user-plus" aria-hidden="true" /></span>
-                  <a href="index.html"><span className="btn rtmp-btn live-studeo">Live Studio</span></a> 
+                  <Link to="/"><span className="btn rtmp-btn live-studeo">Live Studio</span></Link> 
                   <span className="btn rtmp-btn">RTMP Settings</span>
                 </p>
               </div>
@@ -58,7 +60,7 @@ class Events extends Component {
                   <span className="icon-btn" title="Edit"><i className="fa fa-pencil-square-o" aria-hidden="true" /></span>
                   <span className="icon-btn" title="Delete"><i className="fa fa-trash-o" aria-hidden="true" /></span>
                   <span className="icon-btn" title="Invite Friends"><i className="fa fa-user-plus" aria-hidden="true" /></span>
-                  <a href="index.html"><span className="btn rtmp-btn live-studeo">Live Studio</span></a> 
+                  <Link to="/"><span className="btn rtmp-btn live-studeo">Live Studio</span></Link> 
                   <span className="btn rtmp-btn">RTMP Settings</span>
                 </p>
               </div>
@@ -76,7 +78,7 @@ class Events extends Component {
                   <span className="icon-btn" title="Edit"><i className="fa fa-pencil-square-o" aria-hidden="true" /></span>
                   <span className="icon-btn" title="Delete"><i className="fa fa-trash-o" aria-hidden="true" /></span>
                   <span className="icon-btn" title="Invite Friends"><i className="fa fa-user-plus" aria-hidden="true" /></span>
-                  <a href="index.html"><span className="btn rtmp-btn live-studeo">Live Studio</span></a> 
+                  <Link to="/"><span className="btn rtmp-btn live-studeo">Live Studio</span></Link> 
                   <span className="btn rtmp-btn">RTMP Settings</span>
                 </p>
               </div>
@@ -94,7 +96,7 @@ class Events extends Component {
                   <span className="icon-btn" title="Edit"><i className="fa fa-pencil-square-o" aria-hidden="true" /></span>
                   <span className="icon-btn" title="Delete"><i className="fa fa-trash-o" aria-hidden="true" /></span>
                   <span className="icon-btn" title="Invite Friends"><i className="fa fa-user-plus" aria-hidden="true" /></span>
-                  <a href="index.html"><span className="btn rtmp-btn live-studeo">Live Studio</span></a> 
+                  <Link to="/"><span className="btn rtmp-btn live-studeo">Live Studio</span></Link> 
                   <span className="btn rtmp-btn">RTMP Settings</span>
                 </p>
               </div>
@@ -112,7 +114,7 @@ class Events extends Component {
                   <span className="icon-btn" title="Edit"><i className="fa fa-pencil-square-o" aria-hidden="true" /></span>
                   <span className="icon-btn" title="Delete"><i className="fa fa-trash-o" aria-hidden="true" /></span>
                   <span className="icon-btn" title="Invite Friends"><i className="fa fa-user-plus" aria-hidden="true" /></span>
-                  <a href="index.html"><span className="btn rtmp-btn live-studeo">Live Studio</span></a> 
+                  <Link to="/"><span className="btn rtmp-btn live-studeo">Live Studio</span></Link> 
                   <span className="btn rtmp-btn">RTMP Settings</span>
                 </p>
               </div>
