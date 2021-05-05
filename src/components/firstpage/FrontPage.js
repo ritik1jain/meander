@@ -88,7 +88,6 @@ export class FrontPage extends Component {
     render() {
         return (
             <>
- <div>
    <div className="d-flex flex-column bg-slidebar">
      <a href="/" className="d-block p-3 text-center link-dark  text-decoration-none">
        <img src="assets/images/logo-icon.png" width="32px" />
@@ -136,7 +135,7 @@ export class FrontPage extends Component {
          <div className="preview-btn app__container">Preview</div>
               <video
                 width="100%" height="100%"
-                autoPlay
+                autoPlay="autoplay"
                 
                 className="app__videoFeed"
               ></video>
@@ -145,10 +144,10 @@ export class FrontPage extends Component {
            <source src="assets/images/videoplay.webm" type="video/webm" />
            <source src="assets/images/videoplay.ogg" type="video/ogg" />
          </video> */}
-         <audio className="audio__container">
+         {/* <audio className="audio__container">
            <source src={this.state.audio ? this.state.audio.getAudioTracks() : ""} />
   
-</audio>
+</audio> */}
          <div className="boxed-row">
            <span className="boxes">
              <ul>
@@ -181,7 +180,7 @@ export class FrontPage extends Component {
            </div>
            <video
                 width="100%" height="100%"
-                autoPlay
+                autoPlay="autoplay"
                 className="app__videoFeed"
               ></video>
            {/* <video autoPlay="autoplay" width="100%" height="100%">
@@ -220,7 +219,6 @@ export class FrontPage extends Component {
       </div>
     </div>
   </main>
-</div>
 
           </>
         )
